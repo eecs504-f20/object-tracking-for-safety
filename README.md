@@ -17,35 +17,38 @@ The video submission will include (but will not be limited to);
 - a live visualization of the integrated system performing object tracking and proximity warning on a video.
 
 
-## Dependencies
-
-1. Download sensor data and groundtruth.csv from the [NCLT dataset](http://robots.engin.umich.edu/nclt/) for a date, save all csv files in one folder named by the date, and store the folder in `/data`.
-
-2. Run the script `/utils/read_data_and_convert_to_mat.py` 
-
 ## Running the code
 
-First, clone or download this GitHub repository. Install requirements and download pretrained weights:
+1. First, clone or download this GitHub repository. Install requirements and download pretrained weights:
 
 `pip install -r ./requirements.txt`
-
 `wget -P model_data https://pjreddie.com/media/files/yolov3.weights`
 
-Start with using pretrained weights to test predictions on both image and video:
+2. Start with using pretrained weights to test predictions on both image and video:
 
 `python detection_demo.py`
 `python object_tracking.py`
 
+<p align="center">
+    <img src="IMAGES/tracking_results.gif"></a>
+</p>
+
 
 ## Results
 
-Plot generated 
+Object tracking implemented on [Princeton tracking benchmark](https://tracking.cs.princeton.edu/dataset.html) dataset.
+
+<p align="center">
+    <img src="IMAGES/detection.gif"></a>
+</p>
 
 <!-- ![alt-text](/report/ekf.gif) -->
 
 
 
-Check the [proposal](https://github.com/team16-mobrob-w20/inekf-localization/blob/master/EECS568_Team16_proposal.pdf), [final report](https://github.com/team16-mobrob-w20/inekf-localization/blob/master/EECS568_Team16_Report.pdf) and [video presentation](https://youtu.be/aILSsw7K2z8) for more details on implementation. 
+Check the [proposal](https://github.com/eecs504-f20/object-tracking-for-safety/blob/master/EECS504_Proposal.pdf)
+
+<!-- [final report](https://github.com/team16-mobrob-w20/inekf-localization/blob/master/EECS568_Team16_Report.pdf) and [video presentation](https://youtu.be/aILSsw7K2z8) for more details on implementation.  -->
 
 
 
