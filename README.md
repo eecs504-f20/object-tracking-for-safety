@@ -43,7 +43,7 @@ wget -P model_data https://pjreddie.com/media/files/yolov3.weights
 Object tracking implemented on [Princeton tracking benchmark](https://tracking.cs.princeton.edu/dataset.html) dataset.
 
 <p align="center">
-    <img src="IMAGES/detection.gif"></a>
+    <img src="IMAGES/detection.gif">
 </p>
 
 <!-- ![alt-text](/report/ekf.gif) -->
