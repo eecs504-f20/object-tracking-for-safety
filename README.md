@@ -40,8 +40,14 @@ wget -P model_data https://pjreddie.com/media/files/yolov3.weights
 
 ## Results
 
-Object tracking implemented on [Princeton tracking benchmark](https://tracking.cs.princeton.edu/dataset.html) dataset.
+Download the [Princeton tracking benchmark](https://tracking.cs.princeton.edu/dataset.html) dataset and run the [Final_SafetyWarningSystem.ipynb](https://github.com/eecs504-f20/object-tracking-for-safety/blob/master/Final_SafetyWarningSystem.ipynb)
 
+<p align="center">
+    <img src="IMAGES/detection.gif">
+</p>
+<p align="center">
+    <img src="Final_Results/2D_videos/2D_30fps.mp4">
+</p>
 <p align="center">
     <img src="IMAGES/detection.gif">
 </p>
@@ -50,9 +56,7 @@ Object tracking implemented on [Princeton tracking benchmark](https://tracking.c
 
 
 
-Check the [proposal](https://github.com/eecs504-f20/object-tracking-for-safety/blob/master/EECS504_Proposal.pdf)
-
-<!-- [final report](https://github.com/team16-mobrob-w20/inekf-localization/blob/master/EECS568_Team16_Report.pdf) and [video presentation](https://youtu.be/aILSsw7K2z8) for more details on implementation.  -->
+Check the [proposal](https://github.com/eecs504-f20/object-tracking-for-safety/blob/master/EECS504_Proposal.pdf), [final report](https://github.com/team16-mobrob-w20/inekf-localization/blob/master/EECS568_Team16_Report.pdf) and [video presentation](https://youtu.be/aILSsw7K2z8) for more details on implementation. 
 
 
 
