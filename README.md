@@ -10,7 +10,7 @@ The aim of our project is to implement object tracking in videos using bounded b
 Specifically, we would like to use object tracking to detect and draw conclusions about the distance of the moving object from the camera, and additionally issue a warning based on the proximity of the object to the camera. Such a warning would be useful for a robot, vehicle, or even human, to react appropriately when the camera is mounted on them. This will be done with a depth estimator method that makes use of the variation in scale of the bounding box with depth of the object. Therefore, we propose to implement object tracking as well as a proximity warning system for safety purposes.
 
 ## Goals
-The video submission will include (but will not be limited to);
+The video submission includes;
 - the methodology used to implement object detection and tracking,
 - a comparative study of the implemented method with other state-of-the-art techniques, 
 - the methodology used to implement the proximity warning system with depth estimation, and
@@ -20,8 +20,6 @@ The video submission will include (but will not be limited to);
 ## Running the code
 
 1. First, clone or download this GitHub repository. Install requirements and download pretrained weights:
-
-
 
 ```
 pip install -r ./requirements.txt
@@ -46,17 +44,17 @@ Download the [Princeton tracking benchmark](https://tracking.cs.princeton.edu/da
     <img src="IMAGES/detection.gif">
 </p>
 <p align="center">
-    <img src="Final_Results/2D_videos/2D_30fps.mp4">
+    <img src="IMAGES/2D_30fps.gif">
 </p>
 <p align="center">
-    <img src="IMAGES/detection.gif">
+    <img src="IMAGES/2D_warnings_arrows_3fps.gif">
 </p>
 
 <!-- ![alt-text](/report/ekf.gif) -->
 
 
 
-Check the [proposal](https://github.com/eecs504-f20/object-tracking-for-safety/blob/master/EECS504_Proposal.pdf), [final report](https://github.com/team16-mobrob-w20/inekf-localization/blob/master/EECS568_Team16_Report.pdf) and [video presentation](https://youtu.be/aILSsw7K2z8) for more details on implementation. 
+Check the [proposal](https://github.com/eecs504-f20/object-tracking-for-safety/blob/master/EECS504_Proposal.pdf), [final report](https://github.com/eecs504-f20/object-tracking-for-safety/blob/master/EECS504_SafeBot_Report.pdf) and [video presentation](https://youtu.be/aILSsw7K2z8) for more details on implementation. 
 
 
 
