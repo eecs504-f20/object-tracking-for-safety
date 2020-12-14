@@ -32,7 +32,7 @@ wget -P model_data https://pjreddie.com/media/files/yolov3.weights
 - `python object_tracking.py`
 
 <p align="center">
-    <img src="IMAGES/tracking_results.gif"></a>
+    <img src="IMAGES/tracking_results.gif">
 </p>
 
 
