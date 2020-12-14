@@ -54,7 +54,7 @@ Download the [Princeton tracking benchmark](https://tracking.cs.princeton.edu/da
 
 
 
-Check the [proposal](https://github.com/eecs504-f20/object-tracking-for-safety/blob/master/EECS504_Proposal.pdf), [final report](https://github.com/eecs504-f20/object-tracking-for-safety/blob/master/EECS504_SafeBot_Report.pdf) and [video presentation](https://youtu.be/aILSsw7K2z8) for more details on implementation. 
+Check the [proposal](https://github.com/eecs504-f20/object-tracking-for-safety/blob/master/EECS504_Proposal.pdf), [final report](https://github.com/eecs504-f20/object-tracking-for-safety/blob/master/EECS504_SafeBot_Report.pdf) and [video presentation](https://youtu.be/4qlSjISMzww) for more details on implementation. 
 
 
 
